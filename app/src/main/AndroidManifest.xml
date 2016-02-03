@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.futureblink.zipy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name="com.futureblink.zipy.LoginPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.futureblink.zipy.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.futureblink.zipy.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.futureblink.zipy.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.futureblink.zipy.PasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.futureblink.zipy.SignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.futureblink.zipy.DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.futureblink.zipy.NavDrawerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name="com.futureblink.zipy.ThankYouActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

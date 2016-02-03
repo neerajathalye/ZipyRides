@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Zipy Rides</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="background_image">background_image</string>
+    <string name="logo">logo</string>
+    <string name="splash">splash</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="send_otp">  Send OTP  </string>
+    <string name="go">Go!</string>
+    <string name="please_enter_your_phone_number_for_otp_verification">Please enter your phone number for OTP verification</string>
+    <string name="please_enter_your_details">Please Enter Your Details</string>
+    <string name="name_icon">name_icon</string>
+    <string name="name">Name</string>
+    <string name="email">Email-Id</string>
+    <string name="address">Address</string>
+    <string name="next">Next</string>
+    <string name="please_choose_a_password">Please choose a password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_your_login_details">Enter your login details</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="choose_your_type_of_vehicle">Choose your type of vehicle</string>
+    <string name="scooter">Scooter</string>
+    <string name="bike">Bike</string>
+    <string name="plusButton">+</string>
+    <string name="minusButton">-</string>
+    <string name="clickCounter">0</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="profilepicture">profilePicture</string>
+    <string name="book_a_ride">Book A Ride</string>
+    <string name="rate_card">Rate Card</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="communicate">Communicate</string>
+    <string name="contact_us">Contact Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="duration">Duration</string>
+    <string name="pick_up_date">Pick up date</string>
+    <string name="pick_up_time">Pick up time</string>
+    <string name="pick_up_address">Pick up address</string>
+    <string name="back">Back</string>
+    <string name="same_as_home_address">Same as home address</string>
+    <string name="your_booking_has_been_confirmed">Your booking has been confirmed!</string>
+    <string name="wait_for_your_confirmation_call_and_don_t_forget_to_bring_your_college_id_card_with_you">Wait for your confirmation call and don\'t forget to bring your college ID card with you!</string>
+    <string name="home">Home</string>
+    <string name="_30_minutes">30 minutes</string>
+    <string name="rate">Rate</string>
+    <string name="_1_hour">1 Hour</string>
+    <string name="_3_hours">3 Hours</string>
+    <string name="_5_hours">5 Hours</string>
+    <string name="_8_hours">8 hours</string>
+    <string name="_12_hours">12 Hours</string>
+    <string name="rs_50">Rs. 50</string>
+    <string name="rs_100">Rs. 100</string>
+    <string name="rs_200">Rs. 200</string>
+    <string name="rs_350">Rs. 350</string>
+    <string name="rs_600">Rs. 600</string>
+    <string name="rs_800">Rs. 800</string>
+    <string name="dash">-</string>
+    <string name="rs_130">Rs. 130</string>
+    <string name="rs_250">Rs. 250</string>
+    <string name="rs_420">Rs. 420</string>
+    <string name="rs_700">Rs. 700</string>
+    <string name="rs_1000">Rs. 1000</string>
+    <string-array name="hours">
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>5 hours</item>
+        <item>8 hours</item>
+        <item>12 hours</item>
+
+
+    </string-array>
+</resources>

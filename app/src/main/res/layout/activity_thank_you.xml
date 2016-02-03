@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/bg_imagetwo"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.futureblink.zipy.ThankYouActivity">
+    <ImageView
+        android:id="@+id/logo"
+        android:contentDescription="@string/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_opt"
+        android:layout_marginBottom="100dp"/>
+    <TextView
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_booking_has_been_confirmed"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wait_for_your_confirmation_call_and_don_t_forget_to_bring_your_college_id_card_with_you"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:onClick="goToHome"
+        android:textColor="@color/app_orange"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="25dp"
+        android:typeface="sans"
+        android:background="@drawable/bkg"/>
+
+</LinearLayout>

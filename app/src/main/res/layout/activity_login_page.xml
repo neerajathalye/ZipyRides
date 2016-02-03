@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/bg_imagetwo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.futureblink.zipy.LoginPage">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/logo"
+            android:contentDescription="@string/logo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_opt"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="75dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/signInButton"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/sign_in"
+                android:textSize="14sp"
+                android:background="@drawable/bkg"
+                android:textColor="@color/app_orange"
+                android:typeface="sans"
+                android:onClick="onClick"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/sign_up"
+                android:onClick="onClick"
+                android:textSize="14sp"
+                android:background="@drawable/bkg"
+                android:textColor="@color/app_orange"
+                android:typeface="sans"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
