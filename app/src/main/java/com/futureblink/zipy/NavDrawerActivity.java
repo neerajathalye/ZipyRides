@@ -97,11 +97,13 @@ public class NavDrawerActivity extends AppCompatActivity
         }
         else if (id == R.id.edit_profile)
         {
-
+            fragmentClass = EditProfile.class;
+            toolbar.setTitle("Edit Profile");
         }
         else if (id == R.id.contact_us)
         {
-
+            fragmentClass = ContactUs.class;
+            toolbar.setTitle("Contact Us");
         }
         try {
             assert fragmentClass != null;

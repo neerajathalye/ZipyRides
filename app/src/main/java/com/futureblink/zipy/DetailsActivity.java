@@ -76,10 +76,14 @@ public class DetailsActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.previous_slide_in, R.anim.previous_slide_out);
     }
     public void pickTime(View view) {
-        DialogFragment newFragment = new TimePickerFragment();
-        newFragment.show(getSupportFragmentManager(), "timePicker");
+        DialogFragment newFragment1 = new TimePickerFragment();
+        newFragment1.show(getSupportFragmentManager(), "timePicker");
+        DialogFragment newFragment = new DatePickerFragment();
+        newFragment.show(getSupportFragmentManager(), "datePicker");
     }
     public void pickDate(View view) {
+        DialogFragment newFragment1 = new TimePickerFragment();
+        newFragment1.show(getSupportFragmentManager(), "timePicker");
         DialogFragment newFragment = new DatePickerFragment();
         newFragment.show(getSupportFragmentManager(), "datePicker");
     }

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class ThankYouActivity extends AppCompatActivity {
 
@@ -14,8 +15,7 @@ public class ThankYouActivity extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition(R.anim.previous_slide_in, R.anim.previous_slide_out);
+        Toast.makeText(ThankYouActivity.this, "You cannot go back at this stage", Toast.LENGTH_SHORT).show();
     }
     public void goToHome(View view)
     {

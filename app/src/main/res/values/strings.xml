@@ -72,6 +72,7 @@
     <string name="rs_700">Rs. 700</string>
     <string name="rs_1000">Rs. 1000</string>
     <string-array name="hours">
+        <item>30 minutes</item>
         <item>1 hour</item>
         <item>3 hours</item>
         <item>5 hours</item>
