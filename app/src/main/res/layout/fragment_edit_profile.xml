@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.futureblink.zipy.EditProfile">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment dialog_alert -->
     <TextView
         android:textColor="#ffffff"
         android:layout_width="match_parent"
