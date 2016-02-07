@@ -7,22 +7,22 @@
         <item
             android:id="@+id/book_a_ride"
             android:checked="true"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/book_a_ride"
             android:title="@string/book_a_ride" />
         <item
             android:id="@+id/rate_card"
             android:checked="false"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/rate_card"
             android:title="@string/rate_card" />
         <item
             android:id="@+id/edit_profile"
             android:checked="false"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/edit_profile"
             android:title="@string/edit_profile" />
         <item
             android:id="@+id/contact_us"
             android:checked="false"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/contact_us"
             android:title="@string/contact_us" />
     </group>
 </menu>
