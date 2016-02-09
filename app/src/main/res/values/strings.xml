@@ -72,6 +72,10 @@
     <string name="rs_700">Rs. 700</string>
     <string name="rs_1000">Rs. 1000</string>
     <string name="sign_out">Sign Out</string>
+    <string name="write_to_us_at">Write to us at</string>
+    <string name="call_us_at">Call us at</string>
+    <string name="zipy_email"><u>sayhello@zipyrides.com</u></string>
+    <string name="zipy_call"><u>+919087860441</u></string>
     <string-array name="hours">
         <item>30 minutes</item>
         <item>1 hour</item>
